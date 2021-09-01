@@ -25,13 +25,13 @@ public class Application {
             System.out.println("number " + n + " is not paired");
         }
 
-        double[] x = {-8.5, 11.7, 23.5, -19.5};
-        double min = x[0];
-        for (int i = 0; i < x.length; i++) {
-            if (Math.abs(x[i] - 10) < Math.abs(min - 10)) {
-                min = x[i];
-            }
-        }
+//        double[] x = {-8.5, 11.7, 23.5, -19.5};
+//        double min = x[0];
+//        for (int i = 0; i < x.length; i++) {
+//            if (Math.abs(x[i] - 10) < Math.abs(min - 10)) {
+//                min = x[i];
+//            }
+//        }
         System.out.println("min number from array x is = " + min);
 
 
